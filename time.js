@@ -42,7 +42,7 @@ function siteTime() {
 
      var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
 
-         document.getElementById("sitetime").innerHTML = "本站安全运行 " + diffYears + "年" + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+         document.getElementById("sitetime").innerHTML = "本站安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
 
          }  
 
